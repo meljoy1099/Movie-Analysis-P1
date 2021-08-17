@@ -1,43 +1,54 @@
-# Title
+# IMDB Movies Analysis
 
-**Authors**: Student1, Student2
+**Authors**: Melody Bass
 
 ## Overview
 
-A one-paragraph overview of the project, including the business problem, data, methods, results and recommendations.
+The focus of this project is to analyze determining factors in what makes a movie successful. We will define success as a film being profitable and well received by critics and users. The original data source comes from Kaggle and can be found here and contains information of over 75,000 movies from IMDB. We will first focus on investigating the dataset and cleaning and wrangling the data into analysis format. The next sections contain questions and answers pertaining to the properties and characteristics that have made films successful over the past 20 years and the modeled data as follows:
+* Movie length 
+* Best month to release movies
+* Production budget
+* Genres
+* Directors
+* Actors 
 
 ## Business Problem
 
-Summary of the business problem you are trying to solve, and the data questions that you plan to answer in order to solve them.
+Microsoft wants to get into the movie business, and I have been tasked me making recommedations about what types of films to create.
+
 
 ***
-Questions to consider:
-* What are the business's pain points related to this project?
-* How did you pick the data analysis question(s) that you did?
-* Why are these questions important from a business perspective?
+Questions we will answer:
+
+1- What characteristics are associated with the most successful movies?
+* What movie runtime generates the most profits?
+* What movie runtime is the highest rated by users and critics?
+* What months are the most profitable movies released?
+* Do higher production budgets lead to higher profits?
+* Do higher production budgets lead to higher user and critic reviews?
+* Do higher production budgets lead to higher ROI?
+
+2- What genres are most profitable and highly rated overall and over time?
+* What is the most profitable genre?
+* What genre is the highest rated by users and critics?
+* What is our top overall genres?
+
+3- Who are the people who make the most successful films?
+* What director generates the most profit?
+* What directors have the highest user and critic ratings?
+* What directors have the highest average ROI?
+* What popular actors make the most profitable movies?
+* What popular actors have the highest user and critic reviews?
+* What popular actors have the highest average ROI?
 ***
 
 ## Data
 
-Describe the data being used for this project.
-
-***
-Questions to consider:
-* Where did the data come from, and how do they relate to the data analysis questions?
-* What do the data represent? Who is in the sample and what variables are included?
-* What is the target variable?
-* What are the properties of the variables you intend to use?
-***
+The dataset used for this analysis was found on Kaggle. It is a compiled dataset containing information about 75,000 movies from IMDB. I will only use movies from the dataset that contain gross income, production budget, user and critic ratings, and were released in the United States from the year 2000 - present. I calculated profit ($M) and ROI to use as some of my parameters of movie success.  The variables that will be used to evaluate a movie's success will be profit, audience reviews, and critic reviews.
 
 ## Methods
 
-Describe the process for analyzing or modeling the data. For Phase 1, this will be descriptive analysis.
-
-***
-Questions to consider:
-* How did you prepare, analyze or model the data?
-* Why is this approach appropriate given the data and the business problem?
-***
+The model used for processing and analyzing the dataset was descriptive analysis. Movie data was used from the last 21 years to give us a good representation of what is doing well now and over time.
 
 ## Results
 
