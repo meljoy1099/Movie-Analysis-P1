@@ -4,7 +4,7 @@
 
 ## Overview
 
-The focus of this project is to analyze determining factors in what makes a movie successful. We will define success as a film being profitable and well received by critics and users. The original data source comes from Kaggle and can be found here and contains information of over 75,000 movies from IMDB. We will first focus on investigating the dataset and cleaning and wrangling the data into analysis format. The next sections contain questions and answers pertaining to the properties and characteristics that have made films successful over the past 20 years and the modeled data as follows:
+The focus of this project is to analyze determining factors in what makes a movie successful. We will define success as a film being profitable and well received by critics and users. The original data source comes from Kaggle and can be found [here](https://www.kaggle.com/soumyasacharya/imdb-movies-dataset).  The dataset contains information on over 75,000 movies from IMDB. We will first focus on investigating the dataset and cleaning and wrangling the data into analysis format. The next sections contain questions and answers pertaining to the properties and characteristics that have made films successful over the past 20 years and the modeled data as follows:
 * Movie length 
 * Movie release month
 * Production budget
@@ -16,7 +16,7 @@ Finally, I will evalate my results and make recommendations to Microsoft's new m
 
 ## Business Problem
 
-Microsoft wants to get into the movie business, and I have been tasked me making recommedations about what types of films to create.
+Microsoft wants to get into the movie business, and I have been tasked with making recommedations about what types of films to create.
 
 ***
 Questions we will answer:
@@ -62,21 +62,15 @@ To measure a director's success in making movies, the dataset was grouped by dir
 Based on the exploration and analysis of the IMDB movies dataset:
 
 1) The following are characteristics and properties of movies that lead to higher profits, audience, and critic reviews:
-  * Movie length between 152 - 165 minutes.
-  * A high production budget.
-  * Movie released in December
+  * Movie length between 152 - 165 minutes (![Illustrated here](./images/length-profit.png)).
+  * A high production budget (![Illustrated here](./images/budget_profit.png)). 
+  * Movie released in December (![Illustrated here](./images/profit_month.png)).
 
-2) The best overall movie genres to create today are Animation and Adventure. Both Animation and Adventure have higher production budgets, but also higher profits and gross income than other genres.  Animation is the most profitable genre, but typically not in the top of user and critic reviews.  Animation has a tighter range of profit generated, and most is higher than the mean of overall genre profit.  There are also few outliers in the Animation category. Adventure is the second most profitable genre but there are far more outliers in the data, meaning there are several Adventure films that generated massive profits that drive the mean up.  Adventure movies are generally rated higher by the audience and critics.
+2) The best overall movie genres to create today are Animation and Adventure. Both Animation and Adventure have higher production budgets, but also ![higher profits and gross income](./images/genre_profit_budget_income.png) than other genres.  Animation is the ![most profitable genre](./images/genre_profit.png), but typically not in the top of user and critic reviews.  Animation has a tighter range of profit generated, and most is higher than the mean of overall genre profit.  There are also few outliers in the Animation category. Adventure is the second most profitable genre but there are far more ![outliers in the data](./images/genre_profit_box.png), meaning there are several Adventure films that generated massive profits that drive the mean up.  Adventure movies are generally rated higher by the ![audience](./images/genre_user_ratings.png) and ![critics](./images/genre_critic_ratings.png).
 
 3) The following are people that have been the most successful at acting and directing films in the past 20 years:
-  * Directors - The top directors by profit and ratings are Gore Verbinski and Sam Raimi. Paul Thomas Anderson and Clint           Eastwood scores high with the critics. Anne Fletcher, Robert Luketic, and Tim Story are less known directors who have         shown to have tremendous potential based on their ROI.
-  * Actors - Paul Bettany is the top overall actor of every success category, followed by Robert Downy Jr and Chris Hemsworth.     Josh Gad and Alan Tudyk are highly profitable due to their appearance in several Disney movies, but those profits did not     translate to user and critic ratings.  Natalie Portman and Gwyneth Paltrow are the actors with highest critic reviews not     appearing in the Avengers and Frozen movies, while still scoring high with the critics. Diedrich Bader and Danny Glover       have the highest ROI.
-
-
-Here is an example of how to embed images from your sub-folder:
-
-### Visual 1
-![graph1](./images/viz1.png)
+  * Directors - The top directors by ![profit](./images/director_profit.png) and ![ratings](./images/director_critic_ratings.png) are Gore Verbinski and Sam Raimi. Paul Thomas Anderson and Clint        Eastwood score high with the critics. Anne Fletcher, Robert Luketic, and Tim Story are less known directors who have         shown to have tremendous potential based on their ![ROI](./images/director_roi.png).
+  * Actors - ![Paul Bettany](./images/actor_profit.png) is the top overall actor of every success category, followed by Robert Downy Jr and Chris Hemsworth.     Josh Gad and Alan Tudyk are highly profitable due to their appearance in several Disney movies, but those profits did not     translate to user and critic ratings.  Natalie Portman and Gwyneth Paltrow are the actors with highest ![critic reviews](./images/actor_critic_ratings.png) not     appearing in the Avengers and Frozen movies, while still scoring high with the critics. Diedrich Bader and Danny Glover       have the highest ![ROI](./images/actor_roi.png).
 
 ## Conclusions
 
