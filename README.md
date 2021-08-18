@@ -62,7 +62,7 @@ To measure a director's success in making movies, the dataset was grouped by dir
 Based on the exploration and analysis of the IMDB movies dataset:
 
 1) The following are characteristics and properties of movies that lead to higher profits, audience, and critic reviews:
-  * Movie length between 152 - 165 minutes([Illustrated here](./images/length_profit.png))..
+  * Movie length between 152 - 165 minutes([Illustrated here](./images/length-profit.png)).
   * A high production budget ([Illustrated here](./images/budget_profit.png)). 
   * Movie released in December ([Illustrated here](./images/profit_month.png)).
 
