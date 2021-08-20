@@ -105,13 +105,16 @@ Determining top directors and actors by genre would be an interesting extension 
 
 As a bonus, I wanted to take a look at the relationship between ROI and budget, directors and actors. We will answer the following questions:
 
-* Do higher production budgets lead to higher ROI?
+1) Do higher production budgets lead to higher ROI? <br />
+
 There is no relationship between budget and ROI as a whole.  The Blair Witch Project and Paranormal Activity had a low budget with huge returns.  These are rare and are outliers in the dataset.  To study ROI and production budget closer, these outliers would need to be removed from the dataset.
 
-* What directors have the highest average ROI?
+2) What directors have the highest average ROI? <br />
+
 Anne Fletcher, Robert Luketic, and Tim Story are less known directors who have shown to have tremendous potential based on their ROI.
 
-* What popular actors have the highest average ROI?
+3) What popular actors have the highest average ROI? <br />
+
 Diedrich Bader and Danny Glover have the highest actor ROI.
 
 ## For More Information
