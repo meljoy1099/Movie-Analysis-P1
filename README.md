@@ -115,7 +115,7 @@ Diedrich Bader and Danny Glover have the highest actor ROI.
 
 ## For More Information
 
-Please review my full analysis in [my Jupyter Notebook](./IMDB_movies_analysis.ipynb) or my [presentation](./IMDB_movies_analysis_pres.pdf).
+Please review my full analysis in [my Jupyter Notebook](./IMDB_movies_analysis.ipynb) or my [presentation](./IMDB_movies_analysis_presentation.pdf).
 
 For any additional questions, please contact **Melody Bass @ meljoy1099@gmail.com**
 
