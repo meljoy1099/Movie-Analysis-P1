@@ -85,7 +85,7 @@ Animation has a tighter range of profit generated, and most is higher than the m
    Josh Gad and Alan Tudyk are highly profitable due to their appearance in several Disney movies, but those profits did not translate to user and critic ratings.    <br />
 <img src = "./images/actor_critic_ratings.png" width=60%> 
 
- Natalie Portman and Gwyneth Paltrow are the actors with highest not appearing in the Avengers and Frozen movies, while still scoring high with the critics. 
+ Natalie Portman and Gwyneth Paltrow are the actors not appearing in the Avengers and Frozen movies, while still scoring high with the critics. 
 
 ## Conclusions
 
