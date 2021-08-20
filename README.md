@@ -59,32 +59,33 @@ To measure a director's success in making movies, the dataset was grouped by dir
 Based on the exploration and analysis of the IMDB movies dataset:
 
 1) The following are characteristics and properties of movies that lead to higher profits, audience, and critic reviews:
-  * Movie length between 152 - 165 minutes([Illustrated here](./images/length-profit.png)).
-  * A high production budget ([Illustrated here](./images/budget_profit.png)). 
-  * Movie released in December ![Illustrated here](./images/profit_month.png)
-  
-<img src = "./images/profit_month.png" width=50%> 
+  * Movie length between 152 - 165 minutes <br />
+   <img src = "./images/length-profit.png" width=40%> <img src = "./images/length_user_ratings.png" width=40%> <img src = "./images/length-critic-ratings.png" width=40%>
+  * A high production budget 
+   <img src = "./images/budget_profit.png" width=70%> 
+  * Movie released in December
+  <img src = "./images/profit_month.png" width=60%> 
 
-2) The best overall movie genres to create today are Animation and Adventure. Both Animation and Adventure have higher production budgets, but also ![higher profits and gross income](./images/genre_profit_budget_income.png) than other genres.  Animation is the , but typically not in the top of user and critic reviews.  ![most profitable genre](./images/genre_profit.png) Animation has a tighter range of profit generated, and most is higher than the mean of overall genre profit.  There are also few outliers in the Animation category. Adventure is the second most profitable genre but there are far more [outliers in the data](./images/genre_profit_box.png), meaning there are several Adventure films that generated massive profits that drive the mean up.  Adventure movies are generally rated higher by the [audience](./images/genre_user_ratings.png) and [critics](./images/genre_critic_ratings.png).
-
-<img src = "./images/genre_profit_budget_income.png" width=50%> 
-<img src = "./images/genre_profit_budget_income.png" width=50%> 
-
+2) The best overall movie genres to create today are Animation and Adventure. Both Animation and Adventure have higher production budgets, but also higher profits and gross income than other genres.
+<img src = "./images/genre_profit_budget_income.png" width=70%>  
+Animation is the most profitable genre, but typically not in the top of user and critic reviews. 
+<img src = "./images/genre_profit.png" width=60%> 
+Animation has a tighter range of profit generated, and most is higher than the mean of overall genre profit.  There are also few outliers in the Animation category. Adventure is the second most profitable genre but there are far more outliers in the data, meaning there are several Adventure films that generated massive profits that drive the mean up.  Adventure movies are generally rated higher by the audience and critics
+<img src = "./images/genre_profit_box.png", width=70%>
 3) The following are people that have been the most successful at acting and directing films in the past 20 years:
-  * Directors - The top directors by profit and ratings are Gore Verbinski and Sam       Raimi. 
-  ![profit](./images/director_profit.png)
-  ![ratings](./images/director_critic_ratings.png)
-   Paul Thomas Anderson and Clint Eastwood score high with the critics. 
-  * Actors - Paul Bettany is the top overall actor of every success category,            followed by Robert Downey Jr and Chris Hemsworth.  
-  ![profit_actors](./images/actor_profit.png)
-   Josh Gad and Alan Tudyk are highly profitable due to their appearance in several      Disney movies, but those profits did not translate to user and critic ratings.        Natalie Portman and Gwyneth Paltrow are the actors with highest not appearing in      the Avengers and Frozen movies, while still scoring high with the critics. 
-  ![critic reviews](./images/actor_critic_ratings.png)
-  
-<img src = "./images/director_profit.png" width=50%> 
-<img src = "./images/director_critic_ratings.png" width=50%> 
-<img src = "./images/actor_profit.png" width=50%> 
-<img src = "./images/actor_critic_ratings.png" width=50%> 
+<br />
+  * Directors - The top directors by profit and ratings are Gore Verbinski and Sam Raimi. 
+<img src = "./images/director_profit.png" width=60%> 
+ Paul Thomas Anderson and Clint Eastwood score high with the critics.
+ <br />
+<img src = "./images/director_critic_ratings.png" width=60%> 
 
+  * Actors - Paul Bettany is the top overall actor of every success category, followed by Robert Downey Jr and Chris Hemsworth.  
+<img src = "./images/actor_profit.png" width=60%> 
+   Josh Gad and Alan Tudyk are highly profitable due to their appearance in several Disney movies, but those profits did not translate to user and critic ratings.    <br />
+<img src = "./images/actor_critic_ratings.png" width=60%> 
+
+ Natalie Portman and Gwyneth Paltrow are the actors with highest not appearing in the Avengers and Frozen movies, while still scoring high with the critics. 
 
 ## Conclusions
 
